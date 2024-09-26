@@ -1,0 +1,55 @@
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    padding-bottom: 50px; /* Para evitar que o conteúdo fique atrás do rodapé */
+    background-color: rgba(253, 253, 253, 0.7); /* Fundo escuro semi-transparente */
+    background-image: url("/static/img/foto01.jpg"); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    color: #fff; /* Define a cor do texto */
+
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 1px; /* Margem de 1 pixels da parte de baixo */
+    left: 0;
+    right: 0;
+    width: 100%; /* Para ajustar a largura considerando a margem */
+    margin: 1px; /* Margem de 1 pixels ao redor do rodapé */
+    box-sizing: border-box; /* Inclui padding e margem no cálculo da largura */
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+h1 {
+    font-family: 'Gelasio', serif; /* Aplica a fonte Gelasio ao h1 */
+    color: black;
+}
+
+
+
+.title-container {
+    margin-left: 120px; /* Margem à esquerda para alinhar com a imagem */
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    .fixed-image {
+        display: none; /* Oculta a imagem em telas menores */
+    }
+
+    .title-container {
+        margin-left: 0; /* Remove a margem à esquerda */
+        text-align: center; /* Centraliza o texto no modo mobile */
+    }
+}
+
+.audio-container {
+    margin-top: 20px;
+}
