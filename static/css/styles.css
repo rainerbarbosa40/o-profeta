@@ -4,7 +4,6 @@ iframe {
     border: none; /* Remove a borda do iframe */
 }
 
-
 body {
     margin: 0; /* Remove a margem padrão do body */
     padding-bottom: 50px; /* Para evitar que o conteúdo fique atrás do rodapé */
