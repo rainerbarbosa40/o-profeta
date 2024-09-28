@@ -1,3 +1,9 @@
+iframe {
+    width: 100%; /* Largura 100% para ser responsivo */
+    height: 90vh; /* Altura de 80% da viewport */
+    border: none; /* Remove a borda do iframe */
+}
+
 
 body {
     margin: 0; /* Remove a margem padrão do body */
